@@ -1,0 +1,90 @@
+2023-02-17 11:09:29,733 - INFO - 
+Config:
+'add_train': False
+'batch_size': 16
+'cudadevice': 'cuda:1'
+'cur_time': '2023_02_17_11_09_28'
+'data_selected': ['A1']
+'do_figure_save': True
+'do_log_print_to_screen': True
+'do_log_save_to_file': True
+'do_predict': False
+'do_predict_roll': False
+'do_train': True
+'do_train_visualized': False
+'dropout_rate': 0.2
+'dynamic_data_root': 'input/csv/dynamic'
+'dynamic_length': 2
+'embedding_size': 256
+'epoch': 100
+'feature_columns': [0, 1, 3]
+'figure_save_path': 'result/figure/'
+'hidden_size': 256
+'humansize': 9
+'input_size': 3
+'label_columns': [3]
+'label_in_feature_index': [2]
+'learning_rate': 5e-05
+'log_save_path': 'result/logs/2023_02_17_11_09_28_pytorch/'
+'lstm_layers': 2
+'model_name': '.pth'
+'model_postfix': {'pytorch': '.pth'}
+'model_save_path': 'result/model/'
+'name': 'A1_No_Attention_hc_False_changeDe_RMLSE16_plus_only53'
+'naturesize': 4
+'only_dynamic': 0
+'only_static_concat_dynamic': 0
+'only_static_plus_dynamic': 1
+'output_size': 1
+'patience': 5
+'predict_day': 3
+'random_seed': 42
+'roll_predict_day': 125
+'shuffle_train_data': False
+'static_data_path': 'input/csv/static/All_static.csv'
+'static_human_column': [4, 5, 6, 7, 8, 9, 10, 11, 12]
+'static_nature_column': [0, 1, 2, 3]
+'time_step': 5
+'train_data_rate': 0.95
+'train_name': 'A1'
+'traindata': 'traindata'
+'ttotrain': 1
+'use_attention': False
+'use_cuda': True
+'use_static_embedding': False
+'used_frame': 'pytorch'
+'val_name': 'C1'
+'valid_data_rate': 0.15
+2023-02-17 11:09:32,344 - INFO - Epoch 0/100
+2023-02-17 11:09:35,322 - INFO - The train loss is 0.793058. The valid loss is 1.014442.
+2023-02-17 11:09:35,336 - INFO - Epoch 1/100
+2023-02-17 11:09:35,809 - INFO - The train loss is 0.572905. The valid loss is 0.441946.
+2023-02-17 11:09:35,827 - INFO - Epoch 2/100
+2023-02-17 11:09:36,288 - INFO - The train loss is 0.352501. The valid loss is 0.354039.
+2023-02-17 11:09:36,307 - INFO - Epoch 3/100
+2023-02-17 11:09:36,803 - INFO - The train loss is 0.336524. The valid loss is 0.311048.
+2023-02-17 11:09:36,820 - INFO - Epoch 4/100
+2023-02-17 11:09:37,318 - INFO - The train loss is 0.295992. The valid loss is 0.303889.
+2023-02-17 11:09:37,336 - INFO - Epoch 5/100
+2023-02-17 11:09:37,814 - INFO - The train loss is 0.307511. The valid loss is 0.547013.
+2023-02-17 11:09:37,814 - INFO - Epoch 6/100
+2023-02-17 11:09:38,294 - INFO - The train loss is 0.339323. The valid loss is 0.264855.
+2023-02-17 11:09:38,351 - INFO - Epoch 7/100
+2023-02-17 11:09:38,849 - INFO - The train loss is 0.256608. The valid loss is 0.260945.
+2023-02-17 11:09:38,869 - INFO - Epoch 8/100
+2023-02-17 11:09:39,345 - INFO - The train loss is 0.244085. The valid loss is 0.229066.
+2023-02-17 11:09:39,362 - INFO - Epoch 9/100
+2023-02-17 11:09:39,844 - INFO - The train loss is 0.233833. The valid loss is 0.259767.
+2023-02-17 11:09:39,844 - INFO - Epoch 10/100
+2023-02-17 11:09:40,315 - INFO - The train loss is 0.245128. The valid loss is 0.228056.
+2023-02-17 11:09:40,332 - INFO - Epoch 11/100
+2023-02-17 11:09:40,829 - INFO - The train loss is 0.480500. The valid loss is 1.458912.
+2023-02-17 11:09:40,829 - INFO - Epoch 12/100
+2023-02-17 11:09:41,328 - INFO - The train loss is 0.617262. The valid loss is 0.674042.
+2023-02-17 11:09:41,329 - INFO - Epoch 13/100
+2023-02-17 11:09:41,802 - INFO - The train loss is 0.549945. The valid loss is 0.938911.
+2023-02-17 11:09:41,802 - INFO - Epoch 14/100
+2023-02-17 11:09:42,279 - INFO - The train loss is 0.591558. The valid loss is 1.354162.
+2023-02-17 11:09:42,279 - INFO - Epoch 15/100
+2023-02-17 11:09:42,785 - INFO - The train loss is 1.251270. The valid loss is 1.573076.
+2023-02-17 11:09:42,785 - INFO -  The training stops early in epoch 15

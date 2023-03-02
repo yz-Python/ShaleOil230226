@@ -1,0 +1,9 @@
+tqdm
+xpinyin
+setproctitle
+Scikit-learn
+visdom
+matplotlib
+pandas
+numpy
+#pytorch按照CUDA版本下载

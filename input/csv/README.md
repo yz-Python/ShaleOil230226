@@ -1,0 +1,3 @@
+静态数据和动态数据分别存放，
+其中动态数据存放到dynamic中，以多个csv文件形式保存
+静态数据放到statci/All_static.csv中，All_norm_static.csv为自动生成的文件

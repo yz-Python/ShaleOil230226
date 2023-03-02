@@ -1,0 +1,101 @@
+2023-03-01 15:03:02,964 - INFO - 
+Config:
+'add_train': False
+'batch_size': 16
+'cudadevice': 'cuda:0'
+'cur_time': '2023_03_01_15_02_53'
+'data_cache_path': 'cache'
+'data_selected': ['A1']
+'do_figure_save': True
+'do_log_print_to_screen': True
+'do_log_save_to_file': True
+'do_predict': False
+'do_predict_roll': False
+'do_train': True
+'do_train_visualized': False
+'dropout_rate': 0.2
+'dynamic_data_root': 'input/csv/dynamic'
+'dynamic_length': 2
+'embedding_size': 256
+'epoch': 100
+'feature_columns': [0, 1, 3]
+'figure_save_path': 'result/figure/'
+'hidden_size': 256
+'humansize': 9
+'input_size': 3
+'label_columns': [3]
+'label_in_feature_index': [2]
+'learning_rate': 5e-05
+'log_save_path': 'result/logs/2023_03_01_15_02_53_pytorch/'
+'lstm_layers': 2
+'model_name': '.pth'
+'model_postfix': {'pytorch': '.pth'}
+'model_save_path': 'result/model/'
+'name': 'A1_Attention_hc_True_RMLSE16_ds_fusion53'
+'naturesize': 4
+'only_dynamic': 0
+'only_static_concat_dynamic': 0
+'only_static_plus_dynamic': 0
+'output_size': 1
+'patience': 5
+'predict_day': 3
+'random_seed': 42
+'roll_predict_day': 125
+'save_data_cache': True
+'shuffle_train_data': False
+'static_data_path': 'input/csv/static/All_static.csv'
+'static_human_column': [4, 5, 6, 7, 8, 9, 10, 11, 12]
+'static_nature_column': [0, 1, 2, 3]
+'time_step': 5
+'train_data_rate': 0.95
+'train_name': 'A1'
+'traindata': 'traindata'
+'ttotrain': 1
+'use_attention': True
+'use_cuda': True
+'use_static_embedding': True
+'used_frame': 'pytorch'
+'val_name': 'C1'
+'valid_data_rate': 0.15
+2023-03-01 15:03:10,703 - INFO - Epoch 0/100
+2023-03-01 15:03:16,801 - INFO - The train loss is 0.557217. The valid loss is 0.593311.
+2023-03-01 15:03:16,831 - INFO - Epoch 1/100
+2023-03-01 15:03:21,814 - INFO - The train loss is 0.364367. The valid loss is 0.320396.
+2023-03-01 15:03:21,842 - INFO - Epoch 2/100
+2023-03-01 15:03:26,947 - INFO - The train loss is 0.221556. The valid loss is 0.179419.
+2023-03-01 15:03:26,976 - INFO - Epoch 3/100
+2023-03-01 15:03:32,011 - INFO - The train loss is 0.167426. The valid loss is 0.133682.
+2023-03-01 15:03:32,039 - INFO - Epoch 4/100
+2023-03-01 15:03:36,929 - INFO - The train loss is 0.137561. The valid loss is 0.094928.
+2023-03-01 15:03:36,959 - INFO - Epoch 5/100
+2023-03-01 15:03:41,882 - INFO - The train loss is 0.114893. The valid loss is 0.085695.
+2023-03-01 15:03:41,908 - INFO - Epoch 6/100
+2023-03-01 15:03:46,854 - INFO - The train loss is 0.105359. The valid loss is 0.080280.
+2023-03-01 15:03:46,879 - INFO - Epoch 7/100
+2023-03-01 15:03:51,808 - INFO - The train loss is 0.103734. The valid loss is 0.077402.
+2023-03-01 15:03:51,833 - INFO - Epoch 8/100
+2023-03-01 15:03:56,814 - INFO - The train loss is 0.099624. The valid loss is 0.077991.
+2023-03-01 15:03:56,815 - INFO - Epoch 9/100
+2023-03-01 15:04:01,738 - INFO - The train loss is 0.097227. The valid loss is 0.073044.
+2023-03-01 15:04:01,765 - INFO - Epoch 10/100
+2023-03-01 15:04:06,670 - INFO - The train loss is 0.094816. The valid loss is 0.074674.
+2023-03-01 15:04:06,670 - INFO - Epoch 11/100
+2023-03-01 15:04:11,596 - INFO - The train loss is 0.094673. The valid loss is 0.073832.
+2023-03-01 15:04:11,597 - INFO - Epoch 12/100
+2023-03-01 15:04:16,519 - INFO - The train loss is 0.093556. The valid loss is 0.071818.
+2023-03-01 15:04:16,546 - INFO - Epoch 13/100
+2023-03-01 15:04:21,426 - INFO - The train loss is 0.091672. The valid loss is 0.073250.
+2023-03-01 15:04:21,427 - INFO - Epoch 14/100
+2023-03-01 15:04:26,406 - INFO - The train loss is 0.092873. The valid loss is 0.078278.
+2023-03-01 15:04:26,406 - INFO - Epoch 15/100
+2023-03-01 15:04:31,265 - INFO - The train loss is 0.091931. The valid loss is 0.086263.
+2023-03-01 15:04:31,266 - INFO - Epoch 16/100
+2023-03-01 15:04:36,130 - INFO - The train loss is 0.090660. The valid loss is 0.075544.
+2023-03-01 15:04:36,131 - INFO - Epoch 17/100
+2023-03-01 15:04:41,005 - INFO - The train loss is 0.089831. The valid loss is 0.074965.
+2023-03-01 15:04:41,006 - INFO -  The training stops early in epoch 17
+2023-03-01 15:05:31,231 - INFO - The mean relative error of ['ri-chan-you-liang'] is [0.03913086]
+2023-03-01 15:05:31,232 - INFO - The mean squared error of ['ri-chan-you-liang'] is 0.3220409820460611
+2023-03-01 15:05:31,233 - INFO - The mean average error of ['ri-chan-you-liang'] is 0.5044259084121118
+2023-03-01 15:05:31,233 - INFO - The R^2 of ['ri-chan-you-liang'] is -3.1672556655608215
+2023-03-01 15:05:31,312 - INFO - The predicted ri-chan-you-liang for the next 3 day(s) is: [13.05201962 12.90388551 13.08596773]
