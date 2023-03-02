@@ -3,6 +3,7 @@ import pandas as pd
 输入文件：excel表格
 输出文件：各个特征与日产油量的关系图
 '''
+print('ssssss')
 def extractData(path):
     f = pd.ExcelFile(path)
     sheets = f.sheet_names
